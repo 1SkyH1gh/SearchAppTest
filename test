@@ -1,0 +1,14 @@
+    const empty={
+
+    }
+    const groupingElem:FunctionComponent<AllKeywordProp>=(arr: string[]):any=>arr.reduce((cont:any,item:string)=>{
+        const key=item[0];
+        if(cont.hasOwnProperty(key)){
+            cont[key].push(item)
+
+        }
+        else
+            cont[key]=[item]
+        }
+        return cont
+    }

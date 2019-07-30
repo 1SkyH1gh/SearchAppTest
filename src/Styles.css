@@ -1,0 +1,100 @@
+.container{
+
+
+}
+
+.FoundOrDeleteBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    align-items: center;
+
+
+}
+.savingWordsBlock{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.unshowSavingWords{
+    display:none
+}
+.fullSavingWordsContainer{
+    background: azure;
+    min-height: 100px;
+
+}
+
+.formWidth{
+    width:90%;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.inputWidth{
+    width:100%;
+}
+.FoundOrDeleteContainerAll{
+
+}
+
+.Found{
+
+}
+.DeleteAllButton{
+    background:  #e5e8e8;
+
+
+
+}
+.buttonChildStyle{
+    font-size:20px;
+    color: darkcyan;
+}
+.saveKeywordsStyles{
+    background: #e5e8e8;
+    margin-left:1%;
+}
+.AllKeywordsStyle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-top:3px solid grey;
+}
+.examplairKeywordsStyle{
+    border:1px solid grey;
+    margin-left: 1%;
+}
+.bigWordsStyle{
+    border:1px solid aqua;
+    margin-left: 1%;
+}
+.FooterStatic{
+    width:100%;
+    background: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.Cancel{
+    background: darkgray;
+    margin-right: 3%;
+}
+.Accept{
+    background: cornflowerblue;
+}
+.AcceptText{
+    color: white;
+}
+.CancelText{
+    color:black
+}
