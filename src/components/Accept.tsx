@@ -1,11 +1,19 @@
 import * as React from 'react'
 import {useState} from "react";
 
-export const Accept=()=>{
-    const [initState,setSuccsess]=useState()
-    return(
-        <button className="Accept">
-            <h2 className="AcceptText">Accept</h2>
+
+interface AcceptProp{
+    onClick: () => void,
+    addToArray: any;
+}
+export const Accept=(props: AcceptProp
+
+   )=>{
+ const addtoArray=props.addToArray
+ return(
+
+        <button className="Accept" onClick={props.onClick}>
+            <p className="AcceptText">Accept</p>
         </button>
     )
 }

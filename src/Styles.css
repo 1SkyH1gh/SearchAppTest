@@ -55,8 +55,17 @@
     color: darkcyan;
 }
 .saveKeywordsStyles{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     background: #e5e8e8;
     margin-left:1%;
+}
+.deleteKeyword{
+    background: burlywood;
 }
 .AllKeywordsStyle{
     display: flex;
@@ -87,14 +96,29 @@
 }
 .Cancel{
     background: darkgray;
-    margin-right: 3%;
+
+
+    border-radius: 5px;
+    border:1px solid grey;
+
 }
 .Accept{
     background: cornflowerblue;
+    border-radius: 5px;
+    border:1px solid grey;
+
+
 }
 .AcceptText{
+
     color: white;
+    padding-left:20px;
+    padding-right: 20px;
+
 }
 .CancelText{
-    color:black
+
+    color:black;
+    padding-left:20px;
+    padding-right:20px
 }

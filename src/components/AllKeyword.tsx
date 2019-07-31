@@ -14,7 +14,18 @@ export interface AllKeywordProp {
 
 
 export const AllKeyword:FunctionComponent<AllKeywordProp>=()=>{
-
+/*
+   const grouper:FunctionComponent<AllKeywordProp>=(arr:any)=>arr.reduce((acc:any,item:any)=> {
+        const key = item[0]
+        if (acc.hasOwnProperty(key)) {
+            acc[key].push(item)
+        } else {
+            acc[key] = [item]
+        }
+        return acc
+    }
+)
+*/
 
 
     return(

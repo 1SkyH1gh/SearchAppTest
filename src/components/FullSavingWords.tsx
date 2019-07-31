@@ -1,50 +1,42 @@
 import * as React from 'react'
 import {FunctionComponent} from "react";
 import {SaveKeyword} from "./SaveKeyword";
-import words from '../SavingWords.json'
-
+import words from '../AllWords.json'
+import saveWords from '../SavingWords.json'
+import {Accept} from './Accept'
 export interface FullSavingWordsProps {
-    setStyle:string
+    setStyle:string,
+    statusHook:boolean
+
+
+
 }
 
 
 export const FullSavingWords: FunctionComponent<FullSavingWordsProps> = (props) => {
-    const empty={
+    const statusHook=props.statusHook
+    const bank = []
+
+    if(statusHook==true) {
+
+        bank.push(saveWords)
+        console.log(bank)
 
     }
-    /*
-    const regrouper=(arr:string[],obj:{})=>{
-        for(let i=0;i<arr.length;i++){
-            const everyElem=arr[i]
-            const firstChar=everyElem[0]
-            if(obj.hasOwnProperty(firstChar)){
 
-            }
 
-        }
-    }
-    */
-    /*
-   const grouping=(arr:string[])=>arr.reduce((acc:any,item:string)=>{
-       const key=item[0]
-        if(acc.hasOwnProperty(key)){
-            acc[key].push(item)
-
-        }
-        else{
-            acc[key]=[item]
-        }
-
-    })
-    */
 
 
     return(
-        <div className={props.setStyle}>
+
+        <div className={props.setStyle} >
+
+
             {
-                words.data.map(word =>
+                saveWords.map((word: { id: number; keyword: string; }) =>
                     <SaveKeyword word={word}/>)
             }
+
         </div>
 
     )

@@ -11,4 +11,17 @@
             cont[key]=[item]
         }
         return cont
-    }
+
+
+
+    const[buttonDelete,deleteKeywords]=useState(false)
+
+    const handleClick=()=>{
+            deleteKeywords(true)
+            if(buttonDelete){
+                delete props.word.keyword
+            }
+
+
+
+            onClick={handleClick}

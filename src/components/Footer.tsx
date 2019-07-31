@@ -3,14 +3,17 @@ import {Cancel} from "./Cancel";
 import {Accept} from "./Accept";
 
 interface Footer {
+    pushArray: any,
 
+    onClick: () => void,
 }
 
- export const Footer=()=>{
-    return(
-        <div className="FooterStatic">
+export const Footer = (props: Footer) => {
+
+    return (
+        <div className="FooterStatic" >
             <Cancel/>
-            <Accept/>
+            <Accept addToArray={props.pushArray} onClick={props.onClick}/>
         </div>
     )
 }

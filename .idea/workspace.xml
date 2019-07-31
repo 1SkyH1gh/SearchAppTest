@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51656144-d157-4c1f-8a0b-e252203e6373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllWords.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SavingWords.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AllKeyword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ExampairKeyword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FormSearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FoundOrDelete.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FullSavingWords.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SaveKeyword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StateController.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/arrForJsonParse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SavingWords.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/SavingWords.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accept.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accept.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllKeyword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllKeyword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cancel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cancel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExampairKeyword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExampairKeyword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoundOrDelete.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoundOrDelete.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FullSavingWords.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FullSavingWords.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SaveKeyword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SaveKeyword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,7 +60,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -112,6 +110,9 @@
       <workItem from="1564479783510" duration="1367000" />
       <workItem from="1564481545358" duration="196000" />
       <workItem from="1564481797687" duration="12721000" />
+      <workItem from="1564496504155" duration="2066000" />
+      <workItem from="1564553552297" duration="23612000" />
+      <workItem from="1564579004628" duration="4541000" />
     </task>
     <servers />
   </component>
@@ -134,5 +135,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Accept.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

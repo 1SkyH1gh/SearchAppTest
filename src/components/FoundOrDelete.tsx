@@ -4,9 +4,11 @@ import {inspect} from "util";
 import {useState} from 'react'
 import {FullSavingWords} from "./FullSavingWords";
 
-export const FoundOrDelete=()=>{
 
 
+export const FoundOrDelete=(props: { replaceStatus: any; })=>{
+
+    const replaceStatus=props.replaceStatus
     const [visibleBlock,setState]=useState('savingWordsBlock')
     const handleClick=()=>{
         setState('unshowSavingWords')
@@ -15,13 +17,13 @@ export const FoundOrDelete=()=>{
 
 
     return(
-        <div className="FoundOrDeleteContainerAll">
+        <div className="FoundOrDeleteContainerAll"  >
         <div className="FoundOrDeleteBlock">
             <div className="foundBlock"><h2>founded:<b>27/47</b></h2></div>
             <button onClick={handleClick} className='DeleteAllButton'><h3 className="buttonChildStyle">Delete All</h3></button>
 
         </div>
-            <FullSavingWords setStyle={visibleBlock}/>
+            <FullSavingWords setStyle={visibleBlock} statusHook={true}/>
         </div>
     )
 }
